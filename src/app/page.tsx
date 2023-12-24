@@ -26,7 +26,7 @@ export default function Home() {
           <ul className="mb-10 flex gap-5 flex-wrap items-center justify-center">
             <li>
              <EmailOptin/>
-             <p className='mt-2 text-base text-white text-xs'>Brought to you by <span className='underline'><a href='https://www.linkedin.com/in/peterayeni/'>Peter Ayeni</a></span></p>
+             <p className='mt-2 text-base text-white text-xs'>Brought to you by <span className='underline'><a href='https://www.linkedin.com/company/fuelmyhustle' target='_blank'>FuelMyHustle</a></span></p>
 
             </li>
             
