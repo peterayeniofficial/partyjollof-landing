@@ -50,14 +50,3 @@
   }
 }
 
-
-body {
-  color: rgb(var(--foreground));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background))
-    )
-    rgb(var(--foreground));
-}
-

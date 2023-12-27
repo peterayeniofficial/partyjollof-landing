@@ -1,25 +1,16 @@
 "use client"
 import * as React from "react"
-
-import { cn } from "@/lib/utils"
 import { useMediaQuery } from "@/hooks/use-media-query"
 import { Button } from "@/components/ui/button"
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
-  DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer"
 
@@ -42,8 +33,6 @@ export function EmailOptin() {
         width="480"
         height="320"
         style={{ border: '1px solid #EEE', background: 'white' }}
-        frameBorder="0"
-        scrolling="no"
       ></iframe>
         </DialogContent>
       </Dialog>
