@@ -60,10 +60,10 @@ export default function ReelsPage() {
                       <Content
                         key={album.name}
                         album={album}
-                        className="w-[250px]"
+                        className="w-[150px]"
                         aspectRatio="portrait"
-                        width={250}
-                        height={330}
+                        width={150}
+                        height={230}
                       />
                     ))}
                   </div>
@@ -87,9 +87,9 @@ export default function ReelsPage() {
                         key={album.name}
                         album={album}
                         className="w-[150px]"
-                        aspectRatio="square"
+                        aspectRatio="portrait"
                         width={150}
-                        height={150}
+                        height={230}
                       />
                     ))}
                   </div>
