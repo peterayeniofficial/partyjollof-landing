@@ -1,9 +1,13 @@
 import { config, fields, collection } from '@keystatic/core';
 
+const REPO_NAME = 'partyjollof-landing'
+const REPO_OWNER = 'peterayeniofficial'
+
 export default config({
   storage: {
-    kind: 'local',
-  },
+    kind: 'github',
+    repo: `${REPO_OWNER}/${REPO_NAME}`
+ },
   collections: {
     posts: collection({
       label: 'Posts',
