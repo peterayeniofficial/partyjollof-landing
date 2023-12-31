@@ -1,113 +1,131 @@
 export interface ContentData {
   name: string;
-  artist: string;
+  streaming_on?: string[];
   cover: string;
   trailer: string;
+  released_for: string,
+  playing_at?: string,
+  genres?: string[]
 }
 
 export const streaming: ContentData[] = [
   {
     name: "The Black Book",
-    artist: "Netflix",
+    streaming_on: ["Netflix"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/kn28W24slBLyGr8ZIZnxNE5YZrY.jpg",
     trailer: "E_f5GAMFfTM",
+    released_for: 'Streaming'
+    
   },
   {
     name: "Breath of Life",
-    artist: "Prime Video",
+    streaming_on: ["Prime Video"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1hku2QAzbElm3TrYoZEgRqQHMQ5.jpg",
     trailer: "dgRYWeEyaYE",
+    released_for: 'Streaming'
   },
 
   {
     name: "War: Wrath and Revenge",
-    artist: "Netflix",
+    streaming_on: ["Netflix"],
     cover:
       "https://www.nollywoodreinvented.com/wp-content/uploads/2023/08/war-series-790x988.jpeg",
     trailer: "UqxKAcLIhbI",
+    released_for: 'Streaming'
   },
 
   {
     name: "Queen of Katwe",
-    artist: "Disney",
+    streaming_on: ["Disney"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wVOnqlrs0L9jdIsNp5IdSCq6EiD.jpg",
     trailer: "z4l3-_yub5A",
+    released_for: 'Streaming'
   },
   {
     name: "Queen Sono",
-    artist: "Netflix",
+    streaming_on: ["Netflix"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zCq56uFGe16RrrEl9D9lKjzdAnE.jpg",
     trailer: "1zgxDFEifyI",
+    released_for: 'Streaming'
   },
   {
     name: "Gangs of Lagos",
-    artist: "Prime Video",
+    streaming_on: ["Prime Video"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nGwFsB6EXUCr21wzPgtP5juZPSv.jpg",
     trailer: "TBLNplnMVzA",
+    released_for: 'Streaming'
   },
 ];
 
 export const cinema: ContentData[] = [
   {
     name: "A Tribe Called Judah",
-    artist: "Comedy",
+    genres: ["Comedy"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/44CUFoxVdnCixPbH5BaIFBtKkC9.jpg",
-      trailer: "pEUZVfeCU94"
+      trailer: "pEUZVfeCU94",
+      released_for: 'Cinema'
   },
   {
     name: "Mami Wata",
-    artist: "Drama, Fantasy, Thriller",
+    genres: ["Drama, Fantasy, Thriller"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qjH3vzXvp8U4osDgnUIQlRkRPvx.jpg",
     trailer: "2Tktsd2-dKA",
+    released_for: 'Cinema'
   },
   {
     name: "Shimoni",
-    artist: "Drama",
+    genres: ["Drama"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nwmpsLqq6fPvrLV13epLkgLHP8N.jpg",
     trailer: "-SvVJSzCftA",
+    released_for: 'Cinema'
   },
   {
     name: "Goodbye Julia",
-    artist: "Drama",
+    genres: ["Drama"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2EacmpjNGnaM1VfAswIO0bOQ2vV.jpg",
     trailer: "Xh8sauNG4AE",
+    released_for: 'Cinema'
   },
   {
     name: "Bravo, Burkina!",
-    artist: "Drama",
+    genres: ["Drama"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/p3LdYMpLkdujz7HmTlOeaEj7mUK.jpg",
     trailer: "v0Y1bENaw_8",
+    released_for: 'Cinema'
   },
   {
     name: "The Spectre of Boko Haram",
-    artist: "Documentary",
+    genres: ["Documentary"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rONcnDi3OBWoKFawkqNo2x87hro.jpg",
     trailer: "E5y4e61TSMk",
+    released_for: 'Cinema'
   },
   {
     name: "Kanaani",
-    artist: "Drama",
+    genres: ["Drama"],
     cover:
       "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/kiBBKu91FswvT5iSIdhA5gxxZwM.jpg",
-      trailer: "4q5g3_MrRlo"
+      trailer: "4q5g3_MrRlo",
+      released_for: 'Cinema'
   },
   {
     name: "This Is Lagos",
-    artist: "Drama",
+    genres: ["Drama"],
     cover:
       "https://www.nollywoodreinvented.com/wp-content/uploads/2023/12/1701512941342-790x985.jpg",
-      trailer: "uJbIsfomJ08"
+      trailer: "uJbIsfomJ08",
+      released_for: 'Cinema'
   },
  
 ];

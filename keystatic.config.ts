@@ -35,7 +35,27 @@ export default config({
         overview: fields.text({
           label: 'Overview',
           multiline: true
-        })
+        }),
+        imageUrl: fields.text({
+          label: 'Image URL',
+        }),
+        trailer: fields.text({
+          label: 'Trailer URL',
+        }),
+        playingAt: fields.text({
+          label: 'Cinema URL',
+        }),
+        status: fields.select({
+          label: 'Status',
+          description: "The person's role at the company",
+          options: [
+            { label: 'Designer', value: 'designer' },
+            { label: 'Developer', value: 'developer' },
+            { label: 'Product manager', value: 'product-manager' },
+          ],
+          defaultValue: 'designer'
+        }) 
+
       },
     }),
     tvshows: collection({
