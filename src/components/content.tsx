@@ -16,7 +16,7 @@ interface ContentProps extends React.HTMLAttributes<HTMLDivElement> {
   height?: number
 }
 
-export function Content ({
+export function Content({
   album,
   aspectRatio = 'portrait',
   width,
@@ -46,7 +46,7 @@ export function Content ({
             </div>
           </div>
         </DialogTrigger>
-        <DialogContent className="sm:max-w-[425px] lg:max-w-[880px] lg:max-h-[650px]">
+        <DialogContent className="sm:max-w-[425px] lg:max-w-[880px] lg:max-h-[650px] border-none">
           <DialogHeader>
             <DialogTitle className="text-white mb-0">{album.name} Trailer</DialogTitle>
           </DialogHeader>

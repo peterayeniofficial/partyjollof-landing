@@ -10,6 +10,13 @@ export interface ContentData {
 
 export const streaming: ContentData[] = [
   {
+    name: "JAPA",
+    streaming_on: ["Prime Video"],
+    cover: "/japa.jpg",
+    trailer: "06vdFsDQP64",
+    released_for: "Streaming",
+  },
+  {
     name: "The Black Book",
     streaming_on: ["Netflix"],
     cover:

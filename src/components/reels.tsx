@@ -58,13 +58,13 @@ export default function ReelsPage() {
               >
                 <CarouselContent className='-ml-2 md:-ml-4'>
                   {streaming.map((album) => (
-                    <CarouselItem key={album.name} className="sm:basis-1/6 md:basis-1/6 lg:basis-1/6">
+                    <CarouselItem key={album.name} className="basis-1/6">
                       <Content
                         album={album}
-                        className="w-full md:w-[200px]"
+                        className="w-full md:w-[180px]"
                         aspectRatio="portrait"
-                        width={200}
-                        height={250}
+                        width={180}
+                        height={231}
                       />
                     </CarouselItem>
                   ))}
@@ -94,14 +94,15 @@ export default function ReelsPage() {
               >
                 <CarouselContent className='-ml-2 md:-ml-4'>
                   {cinema.map((album) => (
-                    <CarouselItem key={album.name} className="sm:basis-1/6 md:basis-1/6 lg:basis-1/6">
+                    <CarouselItem key={album.name} className="basis-1/6">
 
                       <Content
                         album={album}
-                        className="w-full md:w-[200px]"
+                        className="w-full md:w-[206px]"
                         aspectRatio="portrait"
-                        width={200}
-                        height={250}
+                        width={206}
+                        height={231}
+
                       />
                     </CarouselItem>
                   ))}
