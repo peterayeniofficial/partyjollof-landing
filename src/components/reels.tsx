@@ -11,14 +11,14 @@ import {
 
 import { Content } from './content'
 import { cinema, streaming } from '../../data/content'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
 
 export const metadata: Metadata = {
   title: 'Party Jollof',
   description: 'Latest Movies, TV Shows and Cast and Crew accross Africa'
 }
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-export default function ReelsPage () {
+export default function ReelsPage() {
   return (
     <div className="grid lg:grid-cols-4">
       <div className="col-span-3 lg:col-span-4">
@@ -51,23 +51,33 @@ export default function ReelsPage () {
                 </div>
               </div>
               <Separator className="my-4" />
-              <div className="relative">
-                <ScrollArea>
-                  <div className="flex space-x-4 pb-4">
-                    {streaming.map((album) => (
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true
+                }}
+                className="w-full"
+              >
+                <CarouselContent className='-ml-2 md:-ml-4'>
+                  {streaming.map((album) => (
+                    <CarouselItem key={album.name} className="md:basis-1/6 lg:basis-1/6">
                       <Content
-                        key={album.name}
                         album={album}
-                        className="w-[150px]"
+                        className="w-[200px]"
                         aspectRatio="portrait"
-                        width={150}
-                        height={230}
+                        width={200}
+                        height={250}
                       />
-                    ))}
-                  </div>
-                  <ScrollBar orientation="horizontal" />
-                </ScrollArea>
-              </div>
+                    </CarouselItem>
+                  ))}
+
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
+
+
+
               <div className="mt-6 space-y-1">
                 <h2 className="text-2xl text-white font-semibold tracking-tight">
                   Cinema
@@ -77,23 +87,32 @@ export default function ReelsPage () {
                 </p>
               </div>
               <Separator className="my-4" />
-              <div className="relative">
-                <ScrollArea>
-                  <div className="flex space-x-4 pb-4">
-                    {cinema.map((album) => (
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true
+                }}
+                className="w-full"
+              >
+                <CarouselContent className='-ml-2 md:-ml-4'>
+                  {cinema.map((album) => (
+                    <CarouselItem key={album.name} className="md:basis-1/6 lg:basis-1/6">
+
                       <Content
-                        key={album.name}
+
                         album={album}
-                        className="w-[150px]"
+                        className="w-[200px]"
                         aspectRatio="portrait"
-                        width={150}
-                        height={230}
+                        width={200}
+                        height={250}
                       />
-                    ))}
-                  </div>
-                  <ScrollBar orientation="horizontal" />
-                </ScrollArea>
-              </div>
+                    </CarouselItem>
+                  ))}
+
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
             </TabsContent>
           </Tabs>
         </div>
