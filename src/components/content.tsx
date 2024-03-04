@@ -67,7 +67,7 @@ export function Content({
 
       <div className="space-y-1 text-sm">
         <h3 className="font-medium text-white leading-none">{album.name}</h3>
-        <p className="text-xs text-muted-foreground">{album.artist}</p>
+        <p className="text-xs text-muted-foreground">{album.streaming_on}</p>
       </div>
     </div>
   )
