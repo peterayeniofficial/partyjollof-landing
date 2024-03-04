@@ -1,31 +1,31 @@
-import { BiLogoGithub, BiLogoLinkedin, BiLink } from "react-icons/bi";
+import { BiLogoGithub, BiLogoLinkedin, BiLink, BiLogoInstagram, BiLogoFacebook, BiLogoTwitter } from "react-icons/bi";
 
 export default function ExternalLinks() {
   return (
     <div className="flex gap-5 items-center flex-wrap text-2xl mt-5">
       <a
-        href="https://www.linkedin.com/in/peterayeni/"
+        href="https://www.facebook.com/partyjollofhq/"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <BiLogoLinkedin />
-        <span className="sr-only">Linkedin</span>
+        <BiLogoFacebook />
+        <span className="sr-only">Facebook</span>
       </a>
       <a
-        href="https://github.com/peterayeniofficial"
+        href="https://www.instagram.com/partyjollofhq/"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <BiLogoGithub />
-        <span className="sr-only">Github</span>
+        <BiLogoInstagram />
+        <span className="sr-only">Instagram</span>
       </a>
       <a
-        href="https://fuelmyhustle.com"
+        href="https://twitter.com/partyjollofhq"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <BiLink />
-        <span className="sr-only">FuelMyHustle</span>
+        <BiLogoTwitter />
+        <span className="sr-only">Twitter</span>
       </a>
 
       <a href="https://vercel.com" target="_blank" rel="noreferrer noopener">
@@ -43,6 +43,9 @@ export default function ExternalLinks() {
           <path d="M23.3248 13L32.6497 29H14L23.3248 13Z" fill="white" />
           <line x1="43.5" y1="2.18557e-08" x2="43.5" y2="44" stroke="#5E5E5E" />
         </svg>
+      </a>
+      <a href="#" target="_blank" rel="noreferrer noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="64" fill="none"><path fill="#fff" fill-rule="evenodd" d="M26.5 48.355c-.897 5.831-3.14 8.908-6.471 8.908-2.98 0-4.487-2.243-4.487-6.984v-26.76H25.86l.416-2.146H15.542V7.05h-.737C12.625 15.382 7.147 21.022 0 22.686v.834h4.23l-.063 26.596C4.07 58.993 8.49 63.064 15.222 63.064c8.043 0 11.278-6.314 12.048-14.518l-.77-.19ZM49.445 63.064c10.895 0 19.45-8.621 19.45-21.246 0-12.561-8.555-21.278-19.45-21.278-10.96 0-19.515 8.717-19.515 21.278 0 12.625 8.555 21.246 19.515 21.246Zm0-1.474c-5.16 0-7.307-7.724-7.307-19.772 0-12.145 2.147-19.708 7.307-19.708 5.158 0 7.241 7.563 7.241 19.708 0 12.048-2.083 19.772-7.24 19.772ZM87.097 0H71.458v.16c3.334 1.827 4.264 3.494 4.264 8.972V53.45c0 5.48-.417 6.73-3.654 8.62v.191H90.75v-.19c-3.14-1.891-3.653-3.141-3.653-8.621V0ZM133.882 58.833c-.577.353-1.25.514-1.987.514-3.077 0-4.07-2.18-4.07-6.25 0-6.215.16-12.722.16-19.097 0-9.807-6.312-13.46-17.112-13.46-8.555 0-14.805 4.07-14.805 10.127 0 4.164 2.917 6.568 6.89 6.568 3.237 0 5.832-1.57 6.731-4.421-.323.19-.834.256-1.156.256-2.241 0-3.651-1.73-3.651-4.903 0-3.397 1.921-6.057 5.574-6.057 4.23 0 5.961 3.493 5.961 7.82v8.618l-5.064 1.09c-8.811 1.987-17.272 4.327-17.272 13.138 0 6.634 4.904 10.062 10.801 10.062 6.151 0 10.638-3.845 11.728-9.165 0 .353.16 2.02.16 2.18.673 4.39 3.557 7.05 8.717 7.05 3.748 0 6.824-1.666 8.395-3.91v-.16Zm-17.465-18.682v8.557c-.064 5.575-2.724 9.035-6.312 9.035-2.98 0-4.807-2.467-4.807-6.888 0-5.737 2.82-8.62 8.075-9.967l3.044-.737ZM150 55.757c0-3.974-3.077-7.145-7.05-7.145-4.005 0-7.082 3.17-7.082 7.145 0 4.006 3.077 7.147 7.082 7.147 3.973 0 7.05-3.14 7.05-7.147Z" clip-rule="evenodd" /></svg>
       </a>
     </div>
   );
