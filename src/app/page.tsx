@@ -1,22 +1,21 @@
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable react/react-in-jsx-scope */
 'use client'
 import { EmailOptin } from '@/components/email-optin'
 import ReelsPage from '@/components/reels'
 import { BackgroundBeams } from '@/components/ui/background-beam'
-import { LampContainer } from '@/components/ui/lamp'
-import { motion } from 'framer-motion'
 
-export default function Home() {
+export default function Home () {
   return (
-    
+
     <section
       id="home"
       className="relative overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
       <div className="container">
-     
 
         <div className="-mx-4 flex flex-wrap items-center antialiased">
-  
+
           <div className="w-full px-4">
             <div
               className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center z-10"
@@ -35,26 +34,21 @@ export default function Home() {
               <ul className="mb-10 flex gap-5 flex-wrap items-center justify-center relative z-10">
                 <li>
                   <EmailOptin />
-                  <p className='mt-2 text-base text-white text-xs'>Brought to you by <span className='underline'><a href='https://www.linkedin.com/company/fuelmyhustle' target='_blank'>FuelMyHustle</a></span></p>
+                  <p className='mt-2 text-base text-white text-xs'>Brought to you by <span className='underline'><a href='https://www.linkedin.com/company/fuelmyhustle' target='_blank' rel="noreferrer">FuelMyHustle</a></span></p>
 
                 </li>
 
-
               </ul>
-           
-
 
             </div>
             <BackgroundBeams />
 
             <ReelsPage />
           </div>
-         
+
         </div>
       </div>
     </section>
-   
 
-   
   )
 }

@@ -1,26 +1,24 @@
-import { Metadata } from "next"
-import Image from "next/image"
-import { PlusCircledIcon } from "@radix-ui/react-icons"
-
-import { Button } from "@/components/ui/button"
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
-import { Separator } from "@/components/ui/separator"
+/* eslint-disable react/react-in-jsx-scope */
+import { type Metadata } from 'next'
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
+import { Separator } from '@/components/ui/separator'
 import {
   Tabs,
   TabsContent,
   TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs"
+  TabsTrigger
+} from '@/components/ui/tabs'
 
-import { Content } from "./content"
-import { cinema, streaming } from "../../data/content"
+import { Content } from './content'
+import { cinema, streaming } from '../../data/content'
 
 export const metadata: Metadata = {
-  title: "Party Jollof",
-  description: "Latest Movies, TV Shows and Cast and Crew accross Africa",
+  title: 'Party Jollof',
+  description: 'Latest Movies, TV Shows and Cast and Crew accross Africa'
 }
 
-export default function ReelsPage() {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+export default function ReelsPage () {
   return (
     <div className="grid lg:grid-cols-4">
       <div className="col-span-3 lg:col-span-4">

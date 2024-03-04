@@ -1,31 +1,31 @@
-import Image from "next/image"
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+import Image from 'next/image'
 
-import { cn } from "@/lib/utils"
-import { ContentData } from "../../data/content"
-import { PlayCircle } from "lucide-react"
-import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog"
-import YouTubeVideo from "./youtube-video"
-import { Button } from "./ui/button"
-
-
+import { cn } from '@/lib/utils'
+import { type ContentData } from '../../data/content'
+import { PlayCircle } from 'lucide-react'
+import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog'
+import YouTubeVideo from './youtube-video'
+import { Button } from './ui/button'
 
 interface ContentProps extends React.HTMLAttributes<HTMLDivElement> {
   album: ContentData
-  aspectRatio?: "portrait" | "square"
+  aspectRatio?: 'portrait' | 'square'
   width?: number
   height?: number
 }
 
-export function Content({
+export function Content ({
   album,
-  aspectRatio = "portrait",
+  aspectRatio = 'portrait',
   width,
   height,
   className,
   ...props
 }: ContentProps) {
   return (
-    <div className={cn("space-y-3 relative group", className)} {...props}>
+    <div className={cn('space-y-3 relative group', className)} {...props}>
 
       <Dialog>
         <DialogTrigger asChild>
@@ -36,8 +36,8 @@ export function Content({
               width={width}
               height={height}
               className={cn(
-                "h-auto w-auto object-cover transition-all hover:scale-105",
-                aspectRatio === "portrait" ? "aspect-[3/4]" : "aspect-square"
+                'h-auto w-auto object-cover transition-all hover:scale-105',
+                aspectRatio === 'portrait' ? 'aspect-[3/4]' : 'aspect-square'
               )}
             />
             <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity'>
