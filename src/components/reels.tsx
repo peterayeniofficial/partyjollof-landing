@@ -1,6 +1,4 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { type Metadata } from 'next'
-import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import { Separator } from '@/components/ui/separator'
 import {
   Tabs,
@@ -23,21 +21,21 @@ export default function ReelsPage() {
     <div className="grid lg:grid-cols-4">
       <div className="col-span-3 lg:col-span-4">
         <div className="h-full w-full px-4 py-6 lg:px-8">
-          <Tabs defaultValue="music" className="h-full space-y-6">
+          <Tabs defaultValue="movies" className="h-full space-y-6">
             <div className="space-between flex items-center">
               <TabsList>
-                <TabsTrigger value="music" className="relative">
+                <TabsTrigger value="movies" className="relative">
                   Movies
                 </TabsTrigger>
-                <TabsTrigger value="podcasts" disabled>TV Shows</TabsTrigger>
-                <TabsTrigger value="live" disabled>
+                <TabsTrigger value="tv-shows" disabled>TV Shows</TabsTrigger>
+                <TabsTrigger value="people" disabled>
                   People
                 </TabsTrigger>
               </TabsList>
 
             </div>
             <TabsContent
-              value="music"
+              value="movies"
               className="border-none p-0 outline-none"
             >
               <div className="flex items-center justify-between">
@@ -60,10 +58,10 @@ export default function ReelsPage() {
               >
                 <CarouselContent className='-ml-2 md:-ml-4'>
                   {streaming.map((album) => (
-                    <CarouselItem key={album.name} className="md:basis-1/6 lg:basis-1/6">
+                    <CarouselItem key={album.name} className="sm:basis-1/6 md:basis-1/6 lg:basis-1/6">
                       <Content
                         album={album}
-                        className="w-[200px]"
+                        className="w-full md:w-[200px]"
                         aspectRatio="portrait"
                         width={200}
                         height={250}
@@ -72,8 +70,8 @@ export default function ReelsPage() {
                   ))}
 
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious variant='default' />
+                <CarouselNext variant='default' />
               </Carousel>
 
 
@@ -96,12 +94,11 @@ export default function ReelsPage() {
               >
                 <CarouselContent className='-ml-2 md:-ml-4'>
                   {cinema.map((album) => (
-                    <CarouselItem key={album.name} className="md:basis-1/6 lg:basis-1/6">
+                    <CarouselItem key={album.name} className="sm:basis-1/6 md:basis-1/6 lg:basis-1/6">
 
                       <Content
-
                         album={album}
-                        className="w-[200px]"
+                        className="w-full md:w-[200px]"
                         aspectRatio="portrait"
                         width={200}
                         height={250}
@@ -110,8 +107,8 @@ export default function ReelsPage() {
                   ))}
 
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious variant='default' />
+                <CarouselNext variant='default' />
               </Carousel>
             </TabsContent>
           </Tabs>
