@@ -1,7 +1,6 @@
 "use client"
 import * as React from "react"
 import { useMediaQuery } from "@/hooks/use-media-query"
-import { Button } from "@/components/ui/button"
 import {
   Dialog,
   DialogContent,
@@ -13,6 +12,7 @@ import {
   DrawerContent,
   DrawerTrigger,
 } from "@/components/ui/drawer"
+import { Button } from "./ui/moving-border"
 
 export function EmailOptin() {
   const [open, setOpen] = React.useState(false)
@@ -22,7 +22,7 @@ export function EmailOptin() {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
-        <Button variant={'secondary'} size={'lg'}>Enter your email to be notified on launch</Button>
+        <Button className="w-full">Enter your email to be notified on launch</Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[530px]">
           <DialogHeader>

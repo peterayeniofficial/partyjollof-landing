@@ -3,7 +3,8 @@ import ExternalLinks from "./links";
 
 export default function Footer() {
   return (
-    <footer className="py-8 border-t border-zinc-800">
+    <footer>
+      <div className="py-8 border-t border-zinc-800 flex justify-center">
       <div className="px-global text-white/40">
         <p>&copy; 2023 Fuel My Hustle. All rights reserved</p>
 
@@ -36,6 +37,7 @@ export default function Footer() {
         </p>
 
         <ExternalLinks />
+      </div>
       </div>
     </footer>
   );

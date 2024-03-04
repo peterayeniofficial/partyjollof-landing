@@ -16,8 +16,8 @@ import { Content } from "./content"
 import { cinema, streaming } from "../../data/content"
 
 export const metadata: Metadata = {
-  title: "Music App",
-  description: "Example music app using the components.",
+  title: "Party Jollof",
+  description: "Latest Movies, TV Shows and Cast and Crew accross Africa",
 }
 
 export default function ReelsPage() {
