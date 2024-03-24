@@ -4,18 +4,10 @@
   "imageUrl": "https://ink-blot.tv/wp-content/uploads/elementor/thumbs/IMG_4870-qkur5uxeruyhw5bvn1n4gg8jki8emh4nvf2xg6y8wa.jpg",
   "trailer": "https://www.youtube.com/watch?v=06vdFsDQP64",
   "country": "NG",
-  "status": [
-    "streaming"
-  ],
-  "streamingon": [
-    "prime-video"
-  ],
-  "rating": [
-    "G"
-  ],
-  "genre": [
-    "comedy"
-  ],
+  "status": ["streaming"],
+  "streamingon": ["prime-video"],
+  "rating": "G",
+  "genre": ["comedy"],
   "originalLanguage": "English",
   "casts": [
     {
@@ -40,9 +32,7 @@
       "name": "Igbo Wolf"
     }
   ],
-  "directors": [
-    "Isioma Osaje"
-  ],
+  "directors": ["Isioma Osaje"],
   "producers": [],
   "writers": [],
   "screenplay": [],

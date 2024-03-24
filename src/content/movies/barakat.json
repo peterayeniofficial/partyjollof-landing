@@ -4,20 +4,10 @@
   "imageUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rmjYo2HpxxkAwStPCEk0WO0647A.jpg",
   "trailer": "https://youtu.be/r-4WmEoxD8Q",
   "country": "ZA",
-  "status": [
-    "on-dvd-blu-ray"
-  ],
-  "streamingon": [
-    "netflix"
-  ],
-  "rating": [
-    "G"
-  ],
-  "genre": [
-    "comedy",
-    "drama",
-    "drama"
-  ],
+  "status": ["on-dvd-blu-ray"],
+  "streamingon": ["netflix"],
+  "rating": "G",
+  "genre": ["comedy", "drama", "drama"],
   "originalLanguage": "English",
   "casts": [
     {
@@ -41,13 +31,9 @@
       "role": "Fadielah"
     }
   ],
-  "directors": [
-    "Amy Jephta"
-  ],
+  "directors": ["Amy Jephta"],
   "producers": [],
-  "writers": [
-    "Amy Jephta"
-  ],
+  "writers": ["Amy Jephta"],
   "screenplay": [],
   "releaseDate": "2021-11-20",
   "runtime": 103,

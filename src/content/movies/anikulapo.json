@@ -4,20 +4,10 @@
   "imageUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/xb30hkUpBm23stnVgDJGYGsC0R0.jpg",
   "trailer": "https://www.youtube.com/watch?v=rXIKrHPaB-o",
   "country": "NG",
-  "status": [
-    "streaming"
-  ],
-  "streamingon": [
-    "netflix"
-  ],
-  "rating": [
-    "R"
-  ],
-  "genre": [
-    "comedy",
-    "drama",
-    "drama"
-  ],
+  "status": ["streaming"],
+  "streamingon": ["netflix"],
+  "rating": "R",
+  "genre": ["comedy", "drama", "drama"],
   "originalLanguage": "Yoruba",
   "casts": [
     {
@@ -25,13 +15,9 @@
       "role": "Saro"
     }
   ],
-  "directors": [
-    "Kunle Afolayan"
-  ],
+  "directors": ["Kunle Afolayan"],
   "producers": [],
-  "writers": [
-    "Shola Dada"
-  ],
+  "writers": ["Shola Dada"],
   "screenplay": [],
   "releaseDate": "2022-12-01",
   "runtime": 120,

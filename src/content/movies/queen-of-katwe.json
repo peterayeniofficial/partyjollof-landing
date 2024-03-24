@@ -4,20 +4,10 @@
   "imageUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wVOnqlrs0L9jdIsNp5IdSCq6EiD.jpg",
   "trailer": "https://www.youtube.com/watch?v=z4l3-_yub5A",
   "country": "UG",
-  "status": [
-    "streaming"
-  ],
-  "streamingon": [
-    "netflix",
-    "disney"
-  ],
-  "rating": [
-    "PG"
-  ],
-  "genre": [
-    "drama",
-    "drama"
-  ],
+  "status": ["streaming"],
+  "streamingon": ["netflix", "disney"],
+  "rating": "PG",
+  "genre": ["drama", "drama"],
   "originalLanguage": "English",
   "casts": [
     {
@@ -33,14 +23,10 @@
       "role": "Nakku Harriet"
     }
   ],
-  "directors": [
-    "Mira Nair"
-  ],
+  "directors": ["Mira Nair"],
   "producers": [],
   "writers": [],
-  "screenplay": [
-    "William Wheeler"
-  ],
+  "screenplay": ["William Wheeler"],
   "releaseDate": "2016-12-24",
   "runtime": 120,
   "productionCos": []
