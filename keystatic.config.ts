@@ -36,6 +36,10 @@ export default config({
           label: "Trailer URL",
           description: "Get Trailer URL from YouTube",
         }),
+        tagline: fields.text({
+          label: "Tag Line",
+          description: "Movie Tagline",
+        }),
         country: fields.select({
           label: "Country",
           description: "The movie's country",
@@ -57,6 +61,7 @@ export default config({
             { label: "Coming Soon", value: "coming-soon" },
             { label: "Streaming", value: "streaming" },
             { label: "On DVD/Blu-ray", value: "on-dvd-blu-ray" },
+            { label: "Released", value: "released" },
           ],
           defaultValue: ["coming-soon"],
         }),
@@ -70,10 +75,12 @@ export default config({
             { label: "YouTube", value: "youtube" },
             { label: "Showmax", value: "showmax" },
             { label: "Iroko Tv", value: "irokotv" },
+            { label: "BBC Iplayer", value: "bbc-iplayer" },
+            { label: "Apple TV", value: "apple-tv" },
           ],
           defaultValue: ["netflix"],
         }),
-        rating: fields.multiselect({
+        rating: fields.select({
           label: "Rating",
           options: [
             { label: "G (General Audiences)", value: "G" },
@@ -82,7 +89,7 @@ export default config({
             { label: "R (Restricted)", value: "R" },
             { label: "NC-17 (Adults Only)", value: "NC-17" },
           ],
-          defaultValue: ["G"],
+          defaultValue: "G",
         }),
         genre: fields.multiselect({
           label: "Genre",
