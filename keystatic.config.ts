@@ -8,6 +8,14 @@ export default config({
     kind: "github",
     repo: `${REPO_OWNER}/${REPO_NAME}`,
   },
+  ui: {
+    brand: {
+      name: "PartyJollof Africa",
+    },
+    navigation: {
+      Content: ["movies", "tvshows", "---", "people"],
+    },
+  },
   collections: {
     movies: collection({
       label: "Movies",
@@ -309,7 +317,7 @@ export default config({
       },
     }),
     people: collection({
-      label: "People",
+      label: "Cast & Crew",
       slugField: "name",
       path: "src/content/people/*",
       format: { data: "json" },
