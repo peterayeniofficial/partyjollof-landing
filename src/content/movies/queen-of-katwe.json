@@ -1,0 +1,47 @@
+{
+  "title": "Queen of Katwe",
+  "overview": "A young girl overcomes her disadvantaged upbringing in the slums of Uganda to become a Chess master.\n",
+  "imageUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wVOnqlrs0L9jdIsNp5IdSCq6EiD.jpg",
+  "trailer": "https://www.youtube.com/watch?v=z4l3-_yub5A",
+  "country": "UG",
+  "status": [
+    "streaming"
+  ],
+  "streamingon": [
+    "netflix",
+    "disney"
+  ],
+  "rating": [
+    "PG"
+  ],
+  "genre": [
+    "drama",
+    "drama"
+  ],
+  "originalLanguage": "English",
+  "casts": [
+    {
+      "name": "Madina Nalwanga",
+      "role": "Phiona Mutesi"
+    },
+    {
+      "name": "David Oyelowo",
+      "role": "Robert Katende"
+    },
+    {
+      "name": "Lupita Nyong'o",
+      "role": "Nakku Harriet"
+    }
+  ],
+  "directors": [
+    "Mira Nair"
+  ],
+  "producers": [],
+  "writers": [],
+  "screenplay": [
+    "William Wheeler"
+  ],
+  "releaseDate": "2016-12-24",
+  "runtime": 120,
+  "productionCos": []
+}
