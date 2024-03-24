@@ -15,7 +15,7 @@ import {
 } from '@/components/ui/drawer'
 import { Button } from './ui/moving-border'
 
-export function EmailOptin () {
+export function EmailOptin() {
   const [open, setOpen] = React.useState(false)
   const isDesktop = useMediaQuery('(min-width: 768px)')
 
@@ -25,7 +25,7 @@ export function EmailOptin () {
         <DialogTrigger asChild>
           <Button className="w-full">Enter your email to be notified on launch</Button>
         </DialogTrigger>
-        <DialogContent className="sm:max-w-[530px]">
+        <DialogContent className="sm:max-w-[530px] border-none">
           <DialogHeader>
 
           </DialogHeader>

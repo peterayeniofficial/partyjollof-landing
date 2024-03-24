@@ -27,8 +27,8 @@ export default function ReelsPage() {
                 <TabsTrigger value="movies" className="relative">
                   Movies
                 </TabsTrigger>
-                <TabsTrigger value="tv-shows" disabled>TV Shows</TabsTrigger>
-                <TabsTrigger value="people" disabled>
+                <TabsTrigger value="tv-shows" className="relative">TV Shows</TabsTrigger>
+                <TabsTrigger value="people" className="relative">
                   People
                 </TabsTrigger>
               </TabsList>
@@ -36,6 +36,162 @@ export default function ReelsPage() {
             </div>
             <TabsContent
               value="movies"
+              className="border-none p-0 outline-none"
+            >
+              <div className="flex items-center justify-between">
+                <div className="space-y-1">
+                  <h2 className="text-2xl text-white font-semibold tracking-tight">
+                    Streaming
+                  </h2>
+                  <p className="text-sm text-muted-foreground">
+                    New and upcoming movies on streaming platforms
+                  </p>
+                </div>
+              </div>
+              <Separator className="my-4" />
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true
+                }}
+                className="w-full"
+              >
+                <CarouselContent className='-ml-2 md:-ml-4'>
+                  {streaming.map((album) => (
+                    <CarouselItem key={album.name} className="basis-1/6">
+                      <Content
+                        album={album}
+                        className="w-full md:w-[180px]"
+                        aspectRatio="portrait"
+                        width={180}
+                        height={231}
+                      />
+                    </CarouselItem>
+                  ))}
+
+                </CarouselContent>
+                <CarouselPrevious variant='default' />
+                <CarouselNext variant='default' />
+              </Carousel>
+
+
+
+              <div className="mt-6 space-y-1">
+                <h2 className="text-2xl text-white font-semibold tracking-tight">
+                  Cinema
+                </h2>
+                <p className="text-sm text-muted-foreground">
+                  New and upcoming movies in Cinema
+                </p>
+              </div>
+              <Separator className="my-4" />
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true
+                }}
+                className="w-full"
+              >
+                <CarouselContent className='-ml-2 md:-ml-4'>
+                  {cinema.map((album) => (
+                    <CarouselItem key={album.name} className="basis-1/6">
+
+                      <Content
+                        album={album}
+                        className="w-full md:w-[206px]"
+                        aspectRatio="portrait"
+                        width={206}
+                        height={231}
+
+                      />
+                    </CarouselItem>
+                  ))}
+
+                </CarouselContent>
+                <CarouselPrevious variant='default' />
+                <CarouselNext variant='default' />
+              </Carousel>
+            </TabsContent>
+            <TabsContent
+              value="tv-shows"
+              className="border-none p-0 outline-none"
+            >
+              <div className="flex items-center justify-between">
+                <div className="space-y-1">
+                  <h2 className="text-2xl text-white font-semibold tracking-tight">
+                    Streaming
+                  </h2>
+                  <p className="text-sm text-muted-foreground">
+                    New and upcoming movies on streaming platforms
+                  </p>
+                </div>
+              </div>
+              <Separator className="my-4" />
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true
+                }}
+                className="w-full"
+              >
+                <CarouselContent className='-ml-2 md:-ml-4'>
+                  {streaming.map((album) => (
+                    <CarouselItem key={album.name} className="basis-1/6">
+                      <Content
+                        album={album}
+                        className="w-full md:w-[180px]"
+                        aspectRatio="portrait"
+                        width={180}
+                        height={231}
+                      />
+                    </CarouselItem>
+                  ))}
+
+                </CarouselContent>
+                <CarouselPrevious variant='default' />
+                <CarouselNext variant='default' />
+              </Carousel>
+
+
+
+              <div className="mt-6 space-y-1">
+                <h2 className="text-2xl text-white font-semibold tracking-tight">
+                  Cinema
+                </h2>
+                <p className="text-sm text-muted-foreground">
+                  New and upcoming movies in Cinema
+                </p>
+              </div>
+              <Separator className="my-4" />
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true
+                }}
+                className="w-full"
+              >
+                <CarouselContent className='-ml-2 md:-ml-4'>
+                  {cinema.map((album) => (
+                    <CarouselItem key={album.name} className="basis-1/6">
+
+                      <Content
+                        album={album}
+                        className="w-full md:w-[206px]"
+                        aspectRatio="portrait"
+                        width={206}
+                        height={231}
+
+                      />
+                    </CarouselItem>
+                  ))}
+
+                </CarouselContent>
+                <CarouselPrevious variant='default' />
+                <CarouselNext variant='default' />
+              </Carousel>
+            </TabsContent>
+            <TabsContent
+              value="people"
               className="border-none p-0 outline-none"
             >
               <div className="flex items-center justify-between">
