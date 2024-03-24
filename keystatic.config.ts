@@ -143,6 +143,14 @@ export default config({
             itemLabel: (props) => props.value,
           }
         ),
+        screenplay: fields.array(
+          fields.text({ label: "Full Name" }),
+          // Labelling options
+          {
+            label: "Screenplay",
+            itemLabel: (props) => props.value,
+          }
+        ),
         releaseDate: fields.date({
           label: "Release Date",
         }),
