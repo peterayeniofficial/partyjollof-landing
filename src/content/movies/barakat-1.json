@@ -1,0 +1,40 @@
+{
+  "title": "Barakat",
+  "trailer": "https://www.youtube.com/watch?v=2FWmIvMp-Mc",
+  "country": "ZA",
+  "status": [
+    "released"
+  ],
+  "streamingon": [
+    "youtube",
+    "showmax"
+  ],
+  "rating": "G",
+  "genre": [
+    "drama",
+    "drama"
+  ],
+  "originalLanguage": "Afrikaans,English",
+  "casts": [
+    {
+      "name": "Vinette Ebrahim, Joey Rasdien, Mortimer Williams, Quanita Adams, Keeno Lee Hectormade",
+      "role": "Vinette Ebrahim as Aisha Davids Joey Rasdien as Zunaid Mortimer Williams as Zaid Quanita Adams as Ra-eesah Keeno Lee Hector as Yaseen Danny Ross as Nur June van Merch as Fadielah Bonnie Mbuli as Gwen"
+    }
+  ],
+  "directors": [
+    "\tAmy Jephta"
+  ],
+  "producers": [
+    "\tEphraim Gordon ,Wikus du Toit"
+  ],
+  "writers": [
+    "\tAmy Jephta"
+  ],
+  "screenplay": [],
+  "releaseDate": "2020-09-01",
+  "runtime": 103,
+  "distributor": "Indigenous Film Distribution",
+  "productionCos": [
+    "Nagvlug PaperJet Productions"
+  ]
+}
