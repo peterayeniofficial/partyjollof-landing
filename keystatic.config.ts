@@ -265,6 +265,19 @@ export default config({
         originalLanguage: fields.text({
           label: "Original Language",
         }),
+        season: fields.array(
+          fields.object({
+            name: fields.text({ label: "Season" }),
+            episodes: fields.integer({
+              label: "Number of Episodes",
+            }),
+          }),
+          {
+            label: "Season",
+            slugField: "name",
+            itemLabel: (props) => props.fields.name.value,
+          }
+        ),
 
         casts: fields.array(
           fields.object({
@@ -323,11 +336,9 @@ export default config({
       format: { data: "json" },
       schema: {
         name: fields.slug({ name: { label: "Full Name" } }),
-        bio: fields.document({
+        bio: fields.text({
           label: "Bio",
-          formatting: true,
-          dividers: true,
-          links: true,
+          multiline: true,
         }),
         imageUrl: fields.text({
           label: "Profile Image URL",
