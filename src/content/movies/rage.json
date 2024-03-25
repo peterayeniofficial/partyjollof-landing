@@ -45,5 +45,10 @@
     " Tertius Kapp"
   ],
   "screenplay": [],
-  "productionCos": []
+  "releaseDate": "2020-03-31",
+  "runtime": 85,
+  "distributor": "MNET Movies",
+  "productionCos": [
+    "Nagvlug Films"
+  ]
 }
