@@ -1,0 +1,27 @@
+{
+  "title": "Queen Sono",
+  "overview": "A highly trained South African spy must face changing relationships in her personal life while taking on her most dangerous mission yet.",
+  "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zCq56uFGe16RrrEl9D9lKjzdAnE.jpg",
+  "trailer": "https://youtu.be/1zgxDFEifyI",
+  "country": "ZA",
+  "networks": [
+    "netflix"
+  ],
+  "rating": "PG",
+  "genre": [
+    "action",
+    "crime-and-mystery"
+  ],
+  "originalLanguage": "English",
+  "season": [
+    {
+      "name": "Season 1",
+      "episodes": 6
+    }
+  ],
+  "casts": [],
+  "directors": [],
+  "producers": [],
+  "writers": [],
+  "screenplay": []
+}
