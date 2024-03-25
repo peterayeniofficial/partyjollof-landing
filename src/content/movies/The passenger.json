@@ -5,7 +5,9 @@
   "trailer": "https://www.youtube.com/watch?v=VDJs5-Fdp8U&pp=ygUYdGhlIHBhc3NhZ2VyIHRhaWxlciB1Z2Fu",
   "country": "UG",
   "status": [
-    "coming-soon"
+    "cinema",
+    "streaming",
+    "released"
   ],
   "streamingon": [
     "netflix"
