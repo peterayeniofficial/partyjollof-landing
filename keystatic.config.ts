@@ -217,6 +217,16 @@ export default config({
           ],
           defaultValue: "NG",
         }),
+        status: fields.select({
+          label: "Status",
+          description: "Current Status of show",
+          options: [
+            { label: "Showing", value: "showing" },
+            { label: "Ended", value: "ended" },
+            { label: "Canceled", value: "canceled" },
+          ],
+          defaultValue: "showing",
+        }),
         networks: fields.multiselect({
           label: "Networks",
           description: "The show's showing on",
@@ -297,6 +307,14 @@ export default config({
           // Labelling options
           {
             label: "Directors",
+            itemLabel: (props) => props.value,
+          }
+        ),
+        creators: fields.array(
+          fields.text({ label: "Creator" }),
+          // Labelling options
+          {
+            label: "Creators",
             itemLabel: (props) => props.value,
           }
         ),
