@@ -8,11 +8,15 @@
   "status": [
     "released"
   ],
-  "streamingon": [],
+  "streamingon": [
+    "prime-video",
+    "youtube"
+  ],
   "rating": "G",
   "genre": [
     "horror"
   ],
+  "originalLanguage": "English",
   "casts": [
     {
       "name": "Thapelo Aphiri",
@@ -34,12 +38,20 @@
   "directors": [
     " Beer Adriaanse"
   ],
-  "producers": [],
+  "producers": [
+    "Zandré Coetzer",
+    "Shaamila Fataar",
+    "Scharl van der Merwe",
+    null
+  ],
   "writers": [
     " Beer Adriaanse",
     "Jaco Adriaanse"
   ],
   "screenplay": [],
   "releaseDate": "2020-03-31",
-  "productionCos": []
+  "runtime": 90,
+  "productionCos": [
+    "Nagvlug Films"
+  ]
 }
