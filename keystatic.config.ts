@@ -363,6 +363,18 @@ export default config({
         imageUrl: fields.text({
           label: "Profile Image URL",
         }),
+        website: fields.text({
+          label: "Website URL",
+        }),
+        instagram: fields.text({
+          label: "Instagram URL",
+        }),
+        xUrl: fields.text({
+          label: "X Profile URL",
+        }),
+        facebook: fields.text({
+          label: "Facebook URL",
+        }),
         gender: fields.select({
           label: "Gender",
 
