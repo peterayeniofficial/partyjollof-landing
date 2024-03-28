@@ -1,0 +1,76 @@
+{
+  "title": "Sincerely Daisy",
+  "overview": "A happy high school graduate's dreams, romance and confidence are shaken when family and relationship drama put her plans for the future in doubt.",
+  "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSElsQT7bEY6dm7Yg7lrYeh9lbH21tZ25P9DDOQ_CBvBMNVOG4p",
+  "trailer": "https://www.youtube.com/watch?v=v1YODWhPySY",
+  "country": "KE",
+  "status": [
+    "released"
+  ],
+  "streamingon": [
+    "netflix"
+  ],
+  "rating": "G",
+  "genre": [
+    "comedy",
+    "romance"
+  ],
+  "originalLanguage": "Swahili",
+  "casts": [
+    {
+      "name": "Ellah Maina",
+      "role": "Daisy"
+    },
+    {
+      "name": "Brian Abejah",
+      "role": "Collo"
+    },
+    {
+      "name": "Sam Psenjen",
+      "role": "Fred"
+    },
+    {
+      "name": "Mbeki Mwalimu",
+      "role": "Wendy"
+    },
+    {
+      "name": "James Webbo"
+    },
+    {
+      "name": "Serah Wanjiru",
+      "role": "Amina"
+    },
+    {
+      "name": "Francis Ouma",
+      "role": "Kyalo Mistari"
+    },
+    {
+      "name": "Kagambi Nass"
+    },
+    {
+      "name": "Foi Wambui",
+      "role": "Lisa"
+    },
+    {
+      "name": "Muthoni Gathecha"
+    }
+  ],
+  "directors": [
+    "\tNick Mutuma"
+  ],
+  "producers": [
+    "Nick Mutuma"
+  ],
+  "writers": [
+    "Nick Mutuma"
+  ],
+  "screenplay": [
+    "Natasha Likimani"
+  ],
+  "releaseDate": "2020-10-09",
+  "runtime": 87,
+  "distributor": "Netflix",
+  "productionCos": [
+    "Giraffe Africa Productions"
+  ]
+}
